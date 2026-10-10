@@ -1,6 +1,6 @@
 # Academic website — Ruyi Pan
 
-A lightweight, responsive academic homepage inspired by the minimal academic layout of https://isgibbs.github.io/.
+A lightweight, responsive academic homepage - https://ruyipan.github.io/
 
 ## Local preview
 
