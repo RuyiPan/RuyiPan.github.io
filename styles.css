@@ -14,7 +14,7 @@ a:focus-visible { outline:2px solid var(--link); outline-offset:3px; }
 nav { display:flex; gap:17px; flex-wrap:wrap; }
 nav a { font:14px/1.3 Arial,Helvetica,sans-serif; color:#444; text-decoration:none; }
 nav a:hover { text-decoration:underline; }
-.hero { display:grid; grid-template-columns:minmax(0,1fr) 218px; align-items:start; gap:36px; padding-top:42px; padding-bottom:40px; }
+.hero { display:grid; grid-template-columns:minmax(0,1fr) 248px; align-items:start; gap:30px; padding-top:42px; padding-bottom:40px; }
 .hero-copy { min-width:0; }
 h1 { font:700 36px/1.2 Arial,Helvetica,sans-serif; letter-spacing:-.018em; margin:0 0 5px; }
 .subtitle { font:15px/1.5 Arial,Helvetica,sans-serif; color:var(--secondary); margin:0 0 18px; }
@@ -22,7 +22,7 @@ h1 { font:700 36px/1.2 Arial,Helvetica,sans-serif; letter-spacing:-.018em; margi
 .hero-links { display:flex; flex-wrap:wrap; column-gap:20px; row-gap:6px; margin:18px 0 0; }
 .profile-link { font:14px/1.5 Arial,Helvetica,sans-serif; text-decoration:underline; text-underline-offset:3px; }
 .portrait-column { width:100%; }
-.portrait-frame { margin:4px 0 0; }
+.portrait-frame { margin:89px 0 0; }
 .portrait-image { width:100%; height:auto; aspect-ratio:842/1024; object-fit:cover; display:block; }
 .publications-section { padding:26px 0 28px; background:#fff; }
 .publication-shell h2 { margin:0 0 7px; font:700 28px/1.3 Arial,Helvetica,sans-serif; }
@@ -42,14 +42,16 @@ h1 { font:700 36px/1.2 Arial,Helvetica,sans-serif; letter-spacing:-.018em; margi
  .header-inner { height:auto; min-height:54px; padding-top:12px; padding-bottom:12px; }
  nav { gap:13px; }
  nav a { font-size:12px; }
- .hero { grid-template-columns:minmax(0,1fr) 140px; gap:20px; padding-top:30px; padding-bottom:25px; }
+ .hero { grid-template-columns:minmax(0,1fr) 155px; gap:20px; padding-top:30px; padding-bottom:25px; }
+ .portrait-frame { margin-top:82px; }
  h1 { font-size:30px; }
  .hero-copy > p:not(.subtitle), .publication p { font-size:15px; }
  .publications-section { padding-top:22px; }
 }
 @media(max-width:470px) {
  .hero { display:flex; flex-direction:column-reverse; gap:16px; }
- .portrait-column { width:160px; }
+ .portrait-column { width:170px; }
+ .portrait-frame { margin-top:0; }
  .hero-copy h1 { font-size:29px; }
  .hero-copy > p:not(.subtitle) { font-size:15px; }
  .publication-shell h2 { font-size:25px; }
